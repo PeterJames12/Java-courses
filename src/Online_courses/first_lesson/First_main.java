@@ -5,7 +5,12 @@ public class First_main {
 
     public static void main(String[] args) {
 
-        String str = "Hello, U-Rise!";
+        first("Hello, U-Rise!");
+
+    }
+
+
+    private static void first(String str) {
         int persent = 100;
         double happiness = 0.99;
         boolean say = true;
@@ -13,5 +18,6 @@ public class First_main {
         System.out.println(str);
         System.out.println("There is" + say + ", that there are" + persent + " percent sucess with"
                 + happiness + "happiness.");
+
     }
 }
